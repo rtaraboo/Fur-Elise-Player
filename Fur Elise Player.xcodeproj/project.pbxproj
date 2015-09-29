@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73607F3D1BBB2587001DBF56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73607F3C1BBB2587001DBF56 /* AppDelegate.swift */; };
+		73607F3F1BBB2587001DBF56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73607F3E1BBB2587001DBF56 /* ViewController.swift */; };
+		73607F421BBB2587001DBF56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73607F401BBB2587001DBF56 /* Main.storyboard */; };
+		73607F441BBB2587001DBF56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73607F431BBB2587001DBF56 /* Assets.xcassets */; };
+		73607F471BBB2587001DBF56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73607F451BBB2587001DBF56 /* LaunchScreen.storyboard */; };
+		73607F521BBB2587001DBF56 /* Fur_Elise_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73607F511BBB2587001DBF56 /* Fur_Elise_PlayerTests.swift */; };
+		73607F5D1BBB2587001DBF56 /* Fur_Elise_PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73607F5C1BBB2587001DBF56 /* Fur_Elise_PlayerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73607F4E1BBB2587001DBF56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73607F311BBB2587001DBF56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73607F381BBB2587001DBF56;
+			remoteInfo = "Fur Elise Player";
+		};
+		73607F591BBB2587001DBF56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73607F311BBB2587001DBF56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73607F381BBB2587001DBF56;
+			remoteInfo = "Fur Elise Player";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73607F391BBB2587001DBF56 /* Fur Elise Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fur Elise Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73607F3C1BBB2587001DBF56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		73607F3E1BBB2587001DBF56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73607F411BBB2587001DBF56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73607F431BBB2587001DBF56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73607F461BBB2587001DBF56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73607F481BBB2587001DBF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73607F4D1BBB2587001DBF56 /* Fur Elise PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fur Elise PlayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73607F511BBB2587001DBF56 /* Fur_Elise_PlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fur_Elise_PlayerTests.swift; sourceTree = "<group>"; };
+		73607F531BBB2587001DBF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73607F581BBB2587001DBF56 /* Fur Elise PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fur Elise PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73607F5C1BBB2587001DBF56 /* Fur_Elise_PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fur_Elise_PlayerUITests.swift; sourceTree = "<group>"; };
+		73607F5E1BBB2587001DBF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73607F361BBB2587001DBF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73607F4A1BBB2587001DBF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73607F551BBB2587001DBF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73607F301BBB2587001DBF56 = {
+			isa = PBXGroup;
+			children = (
+				73607F3B1BBB2587001DBF56 /* Fur Elise Player */,
+				73607F501BBB2587001DBF56 /* Fur Elise PlayerTests */,
+				73607F5B1BBB2587001DBF56 /* Fur Elise PlayerUITests */,
+				73607F3A1BBB2587001DBF56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73607F3A1BBB2587001DBF56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73607F391BBB2587001DBF56 /* Fur Elise Player.app */,
+				73607F4D1BBB2587001DBF56 /* Fur Elise PlayerTests.xctest */,
+				73607F581BBB2587001DBF56 /* Fur Elise PlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73607F3B1BBB2587001DBF56 /* Fur Elise Player */ = {
+			isa = PBXGroup;
+			children = (
+				73607F3C1BBB2587001DBF56 /* AppDelegate.swift */,
+				73607F3E1BBB2587001DBF56 /* ViewController.swift */,
+				73607F401BBB2587001DBF56 /* Main.storyboard */,
+				73607F431BBB2587001DBF56 /* Assets.xcassets */,
+				73607F451BBB2587001DBF56 /* LaunchScreen.storyboard */,
+				73607F481BBB2587001DBF56 /* Info.plist */,
+			);
+			path = "Fur Elise Player";
+			sourceTree = "<group>";
+		};
+		73607F501BBB2587001DBF56 /* Fur Elise PlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				73607F511BBB2587001DBF56 /* Fur_Elise_PlayerTests.swift */,
+				73607F531BBB2587001DBF56 /* Info.plist */,
+			);
+			path = "Fur Elise PlayerTests";
+			sourceTree = "<group>";
+		};
+		73607F5B1BBB2587001DBF56 /* Fur Elise PlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				73607F5C1BBB2587001DBF56 /* Fur_Elise_PlayerUITests.swift */,
+				73607F5E1BBB2587001DBF56 /* Info.plist */,
+			);
+			path = "Fur Elise PlayerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73607F381BBB2587001DBF56 /* Fur Elise Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73607F611BBB2587001DBF56 /* Build configuration list for PBXNativeTarget "Fur Elise Player" */;
+			buildPhases = (
+				73607F351BBB2587001DBF56 /* Sources */,
+				73607F361BBB2587001DBF56 /* Frameworks */,
+				73607F371BBB2587001DBF56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fur Elise Player";
+			productName = "Fur Elise Player";
+			productReference = 73607F391BBB2587001DBF56 /* Fur Elise Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73607F4C1BBB2587001DBF56 /* Fur Elise PlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73607F641BBB2587001DBF56 /* Build configuration list for PBXNativeTarget "Fur Elise PlayerTests" */;
+			buildPhases = (
+				73607F491BBB2587001DBF56 /* Sources */,
+				73607F4A1BBB2587001DBF56 /* Frameworks */,
+				73607F4B1BBB2587001DBF56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73607F4F1BBB2587001DBF56 /* PBXTargetDependency */,
+			);
+			name = "Fur Elise PlayerTests";
+			productName = "Fur Elise PlayerTests";
+			productReference = 73607F4D1BBB2587001DBF56 /* Fur Elise PlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73607F571BBB2587001DBF56 /* Fur Elise PlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73607F671BBB2587001DBF56 /* Build configuration list for PBXNativeTarget "Fur Elise PlayerUITests" */;
+			buildPhases = (
+				73607F541BBB2587001DBF56 /* Sources */,
+				73607F551BBB2587001DBF56 /* Frameworks */,
+				73607F561BBB2587001DBF56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73607F5A1BBB2587001DBF56 /* PBXTargetDependency */,
+			);
+			name = "Fur Elise PlayerUITests";
+			productName = "Fur Elise PlayerUITests";
+			productReference = 73607F581BBB2587001DBF56 /* Fur Elise PlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73607F311BBB2587001DBF56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = RLDT;
+				TargetAttributes = {
+					73607F381BBB2587001DBF56 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					73607F4C1BBB2587001DBF56 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 73607F381BBB2587001DBF56;
+					};
+					73607F571BBB2587001DBF56 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 73607F381BBB2587001DBF56;
+					};
+				};
+			};
+			buildConfigurationList = 73607F341BBB2587001DBF56 /* Build configuration list for PBXProject "Fur Elise Player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73607F301BBB2587001DBF56;
+			productRefGroup = 73607F3A1BBB2587001DBF56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73607F381BBB2587001DBF56 /* Fur Elise Player */,
+				73607F4C1BBB2587001DBF56 /* Fur Elise PlayerTests */,
+				73607F571BBB2587001DBF56 /* Fur Elise PlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73607F371BBB2587001DBF56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73607F471BBB2587001DBF56 /* LaunchScreen.storyboard in Resources */,
+				73607F441BBB2587001DBF56 /* Assets.xcassets in Resources */,
+				73607F421BBB2587001DBF56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73607F4B1BBB2587001DBF56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73607F561BBB2587001DBF56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73607F351BBB2587001DBF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73607F3F1BBB2587001DBF56 /* ViewController.swift in Sources */,
+				73607F3D1BBB2587001DBF56 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73607F491BBB2587001DBF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73607F521BBB2587001DBF56 /* Fur_Elise_PlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73607F541BBB2587001DBF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73607F5D1BBB2587001DBF56 /* Fur_Elise_PlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73607F4F1BBB2587001DBF56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73607F381BBB2587001DBF56 /* Fur Elise Player */;
+			targetProxy = 73607F4E1BBB2587001DBF56 /* PBXContainerItemProxy */;
+		};
+		73607F5A1BBB2587001DBF56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73607F381BBB2587001DBF56 /* Fur Elise Player */;
+			targetProxy = 73607F591BBB2587001DBF56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73607F401BBB2587001DBF56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73607F411BBB2587001DBF56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73607F451BBB2587001DBF56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73607F461BBB2587001DBF56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73607F5F1BBB2587001DBF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73607F601BBB2587001DBF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73607F621BBB2587001DBF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fur Elise Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RLDT.Fur-Elise-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		73607F631BBB2587001DBF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fur Elise Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RLDT.Fur-Elise-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		73607F651BBB2587001DBF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fur Elise PlayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RLDT.Fur-Elise-PlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fur Elise Player.app/Fur Elise Player";
+			};
+			name = Debug;
+		};
+		73607F661BBB2587001DBF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fur Elise PlayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RLDT.Fur-Elise-PlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fur Elise Player.app/Fur Elise Player";
+			};
+			name = Release;
+		};
+		73607F681BBB2587001DBF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Fur Elise PlayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RLDT.Fur-Elise-PlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Fur Elise Player";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		73607F691BBB2587001DBF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Fur Elise PlayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RLDT.Fur-Elise-PlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Fur Elise Player";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73607F341BBB2587001DBF56 /* Build configuration list for PBXProject "Fur Elise Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73607F5F1BBB2587001DBF56 /* Debug */,
+				73607F601BBB2587001DBF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73607F611BBB2587001DBF56 /* Build configuration list for PBXNativeTarget "Fur Elise Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73607F621BBB2587001DBF56 /* Debug */,
+				73607F631BBB2587001DBF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		73607F641BBB2587001DBF56 /* Build configuration list for PBXNativeTarget "Fur Elise PlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73607F651BBB2587001DBF56 /* Debug */,
+				73607F661BBB2587001DBF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		73607F671BBB2587001DBF56 /* Build configuration list for PBXNativeTarget "Fur Elise PlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73607F681BBB2587001DBF56 /* Debug */,
+				73607F691BBB2587001DBF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73607F311BBB2587001DBF56 /* Project object */;
+}
