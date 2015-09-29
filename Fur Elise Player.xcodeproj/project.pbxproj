@@ -14,6 +14,8 @@
 		73607F471BBB2587001DBF56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73607F451BBB2587001DBF56 /* LaunchScreen.storyboard */; };
 		73607F521BBB2587001DBF56 /* Fur_Elise_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73607F511BBB2587001DBF56 /* Fur_Elise_PlayerTests.swift */; };
 		73607F5D1BBB2587001DBF56 /* Fur_Elise_PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73607F5C1BBB2587001DBF56 /* Fur_Elise_PlayerUITests.swift */; };
+		73607F6B1BBB2599001DBF56 /* fur_elise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73607F6A1BBB2599001DBF56 /* fur_elise.mp3 */; settings = {ASSET_TAGS = (); }; };
+		73607F6D1BBB25CD001DBF56 /* MTI2NTgyMzIxOTcyMjU5NDU5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73607F6C1BBB25CD001DBF56 /* MTI2NTgyMzIxOTcyMjU5NDU5.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		73607F581BBB2587001DBF56 /* Fur Elise PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fur Elise PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73607F5C1BBB2587001DBF56 /* Fur_Elise_PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fur_Elise_PlayerUITests.swift; sourceTree = "<group>"; };
 		73607F5E1BBB2587001DBF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73607F6A1BBB2599001DBF56 /* fur_elise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fur_elise.mp3; sourceTree = "<group>"; };
+		73607F6C1BBB25CD001DBF56 /* MTI2NTgyMzIxOTcyMjU5NDU5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MTI2NTgyMzIxOTcyMjU5NDU5.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				73607F431BBB2587001DBF56 /* Assets.xcassets */,
 				73607F451BBB2587001DBF56 /* LaunchScreen.storyboard */,
 				73607F481BBB2587001DBF56 /* Info.plist */,
+				73607F6C1BBB25CD001DBF56 /* MTI2NTgyMzIxOTcyMjU5NDU5.jpg */,
+				73607F6A1BBB2599001DBF56 /* fur_elise.mp3 */,
 			);
 			path = "Fur Elise Player";
 			sourceTree = "<group>";
@@ -228,7 +234,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73607F6D1BBB25CD001DBF56 /* MTI2NTgyMzIxOTcyMjU5NDU5.jpg in Resources */,
 				73607F471BBB2587001DBF56 /* LaunchScreen.storyboard in Resources */,
+				73607F6B1BBB2599001DBF56 /* fur_elise.mp3 in Resources */,
 				73607F441BBB2587001DBF56 /* Assets.xcassets in Resources */,
 				73607F421BBB2587001DBF56 /* Main.storyboard in Resources */,
 			);
